@@ -12,6 +12,9 @@ const PORT = 3000;
 // VIEW - É a camada de views
 // CONTROLLER - É a camada que vai orquestrar como as outras camadas vão interagir
 
+// Criar uma rota que receba o id de um filme como parâmetro
+// e retorne somente a nota desse filme
+
 app.use('/filmes', rotasFilmes);
 
 app.listen(PORT, () => {
